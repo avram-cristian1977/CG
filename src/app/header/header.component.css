@@ -32,8 +32,9 @@
     text-decoration:underline;
 }
 
-.login {
+.authentication {
     font-family: 'Lobster', cursive;
     font-size: 20px;
     color: rgb(79, 79, 79);
+    cursor: pointer;
 }
