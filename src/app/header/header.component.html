@@ -5,9 +5,12 @@
         <img src="../../assets//guitar/guitarIcon.png" width="40px" alt=""></li>
       <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['']">Home</a></li>
       <li routerLinkActive="active"><a [routerLink]="['students']">Students</a></li>
+      <li routerLinkActive="active"><a [routerLink]="['manage']">Manage</a></li>
+      <li routerLinkActive="active"><a [routerLink]="['calendar']">Calendar</a></li>
 
     </ul>
     <ul>
+      <h3 class="headerTitle">Guitar Class</h3>
       <li>
         <a class="authentication" (click)="onOpenModal('signin')" >Sign in</a>
       <li>

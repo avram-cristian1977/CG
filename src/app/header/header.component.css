@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 .customHeader{
-    box-shadow: 0px 0px 15px 0px;
+    box-shadow: 0px 0px 10px 0px;
+    background-color: rgb(241, 242, 243);
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+
+.headerTitle{
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+ font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: rgb(79, 79, 79);
+    margin: 0;
 }
 
 .header ul{
@@ -20,6 +33,10 @@
  list-style-type: none;
  margin: 10px 20px 10px 20px;
 }
+
+.header ul li a:hover{
+color: black
+   }
 
 .header ul li a{
    text-decoration: none;

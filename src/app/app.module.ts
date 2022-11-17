@@ -8,6 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { ModalComponent } from './modal/modal.component';
 import { SignupComponent } from './signup/signup.component';
 import { SigninComponent } from './signin/signin.component';
+import { ManageComponent } from './manage/manage.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { SigninComponent } from './signin/signin.component';
     HeaderComponent,
     ModalComponent,
     SignupComponent,
-    SigninComponent
+    SigninComponent,
+    ManageComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
