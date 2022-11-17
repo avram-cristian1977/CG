@@ -9,9 +9,10 @@ import { ModalService } from '../shared/services/modal.service';
 export class HeaderComponent implements OnInit {
   constructor(private modalService: ModalService) {}
 
+
   ngOnInit(): void {}
 
-  onOpenModal() {
-    this.modalService.openDialog();
+  onOpenModal(modalType :string) {
+    this.modalService.openDialog(modalType);
   }
 }

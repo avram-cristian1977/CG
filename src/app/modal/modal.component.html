@@ -1,8 +1,8 @@
 <div class="container">
-    <div id="header">Please confrm!</div>
-    <div id="content">Are you sure you want to detele this?</div>
-    <div id="actions">
-        <button>Yes</button>
-        <button (click)="onCloseModal()">Close</button>
-    </div>
+  <div class="closeBtnWrapper">
+    <button (click)="onCloseModal()" type="button" class="btn-close" aria-label="Close">X</button>
+  </div>
+
+<app-signup *ngIf="modalType === 'signup'"></app-signup>
+<app-signin *ngIf="modalType === 'signin'"></app-signin>
 </div>

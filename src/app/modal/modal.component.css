@@ -12,9 +12,13 @@
 
 .container{
     width: 40%;
-    height: 200px;
-    box-shadow: 5px 5px 6px #ccc;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 3px;
     background-color: #fff;
 
+}
+
+.closeBtnWrapper{
+    display: flex;
+    justify-content: flex-end;
 }
