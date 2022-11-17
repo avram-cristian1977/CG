@@ -2,16 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { ModalService } from '../shared/services/modal.service';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css'],
+  selector: 'app-modal',
+  templateUrl: './modal.component.html',
+  styleUrls: ['./modal.component.css'],
 })
-export class HeaderComponent implements OnInit {
+export class ModalComponent implements OnInit {
   constructor(private modalService: ModalService) {}
 
   ngOnInit(): void {}
 
-  onOpenModal() {
-    this.modalService.openDialog();
+  onCloseModal() {
+    this.modalService.closeDialog();
   }
 }
