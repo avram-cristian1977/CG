@@ -1,5 +1,10 @@
 .imageWrapper{
     display: flex;
     justify-content: center;
-    margin:10vw
+    margin:2vw;
+
+}
+
+.imageWrapper img{
+    width: 40vw;
 }

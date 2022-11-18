@@ -1,7 +1,8 @@
 <div class="container">
   <div class="closeBtnWrapper">
-    <button (click)="onCloseModal()" type="button" class="btn-close" aria-label="Close">X</button>
+    <button (click)="onCloseModal()" type="button" class="btn btn-danger" aria-label="Close">X</button>
   </div>
+
 
 <app-signup *ngIf="modalType === 'signup'"></app-signup>
 <app-signin *ngIf="modalType === 'signin'"></app-signin>

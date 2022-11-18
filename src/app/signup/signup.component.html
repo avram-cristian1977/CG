@@ -24,6 +24,9 @@
       <p *ngIf="signUpForm.controls.confirmPassword?.errors && this.signUpForm.controls.confirmPassword.dirty">Passwords
         don't match.</p>
     </div>
-<button type="submit" class="btn btn-primary"
-      [disabled]="signUpForm.status === 'VALID' ? false : true">Submit</button>
+    <div class="btnWrapper">
+
+      <button type="submit" class="btn btn-primary"
+            [disabled]="signUpForm.status === 'VALID' ? false : true">Submit</button>
+    </div>
 </form>
